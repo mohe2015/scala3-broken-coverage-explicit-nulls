@@ -8,7 +8,5 @@ lazy val root = project
     name := "Scala 3 Project Template",
     version := "0.1.0-SNAPSHOT",
 
-    scalaVersion := scala3Version,
-
-    scalacOptions ++= List("-Yexplicit-nulls"),
+    scalaVersion := scala3Version
   )
